@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveChatWebApi.WebApi", "LiveChatWebApi.WebApi\LiveChatWebApi.WebApi.csproj", "{38035689-9D4C-4A7D-98C2-3A30B8D66C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveChatWebApi.Application", "LiveChatWebApi.Application\LiveChatWebApi.Application.csproj", "{CFD563C1-F221-4BCB-97B0-5ABC884BDF00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38035689-9D4C-4A7D-98C2-3A30B8D66C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38035689-9D4C-4A7D-98C2-3A30B8D66C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38035689-9D4C-4A7D-98C2-3A30B8D66C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38035689-9D4C-4A7D-98C2-3A30B8D66C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD563C1-F221-4BCB-97B0-5ABC884BDF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD563C1-F221-4BCB-97B0-5ABC884BDF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD563C1-F221-4BCB-97B0-5ABC884BDF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD563C1-F221-4BCB-97B0-5ABC884BDF00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

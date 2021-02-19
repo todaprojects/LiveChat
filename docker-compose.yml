@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+
+  webapi:
+    build:
+      context: ./LiveChatWebApi
+      dockerfile: Dockerfile
+    container_name: webapi
+    ports:
+      - "5000:80"
+        
+  webapp:
+    build:
+      context: ./LiveChatWebApp
+      dockerfile: Dockerfile
+    depends_on:
+      - webapi
+    container_name: webapp
+    ports:
+      - "4200:80"
